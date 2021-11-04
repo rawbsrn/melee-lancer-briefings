@@ -1,0 +1,1 @@
+Psychopathically destructive and obsessed with creating and implementing new means of destruction. Had always had strange visions of lives he didn't remember, recently discovered that he is a clone of Control.
