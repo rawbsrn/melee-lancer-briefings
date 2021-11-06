@@ -2,6 +2,7 @@
 # Lancer Briefings
 
 **[Live Demo](https://lancer.kuenaimaku.com/)** (No Room for a Wallflower Spoilers)
+**[live Site](https://objective-wiles-602bd0.netlify.app/)** (Melee Lancer Spoiler?)
 
 Go over mission briefings within the LANCER Universe in style by showing your players a fully animated mission briefing screen, with a Mirrorsmoke Mercenary Company theme.
 
@@ -72,4 +73,3 @@ Alternatively, if you use github, you can probably rely on github-pages. Take a 
 ## Usage within FoundryVTT
 
 install the [Inline Webviewer](https://foundryvtt.com/packages/inlinewebviewer) module and use the new button to send websites to your players - namely this one. Best viewed at 1920x1080.
-
