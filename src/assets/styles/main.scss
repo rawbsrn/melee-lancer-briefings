@@ -274,7 +274,7 @@ div.location-info {
 
 #missions,
 #events,
-#pilots {
+#pilots, #guest {
   animation: 0.5s ease 1 flickerIn;
   animation-delay: 2.2s;
   animation-fill-mode: forwards;
@@ -285,12 +285,13 @@ div.location-info {
   animation-delay: 2.5s;
 }
 
-#pilots {
+#pilots, #guest {
   animation-delay: 2.8s;
 }
 
 div .content-container {
   display: flex;
+  justify-content: space-evenly;
   flex-direction: row;
 }
 
@@ -487,7 +488,7 @@ section .section-header {
   overflow-y: scroll;
 }
 
-#pilots .pilot {
+#pilots .pilot, #guest .pilot {
   display: flex;
   flex-direction: row;
   padding: 1em;
@@ -558,7 +559,7 @@ section .section-header {
   }
 }
 
-#pilots .pilot:last-child {
+#pilots .pilot:last-child, #pilots .pilot:last-child {
   border-bottom: none;
 }
 

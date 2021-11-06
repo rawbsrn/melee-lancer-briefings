@@ -1,6 +1,6 @@
 <template>
   <Header :header="this.header" />
-  <div class="content-container">
+  <div class="content-container" style="width:100%">
     <section class="section-container" id="missions" style="width:435px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/mission-icon.svg" />
@@ -21,7 +21,7 @@
         </div>
       </div>
     </section>
-    <section class="section-container" id="events" style="width:435px; height:714px;">
+    <section class="section-container" id="events" style="width:655px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/events-icon.svg" />
         <h1>Events Log</h1>
@@ -30,7 +30,7 @@
         <Markdown :source="events" class="markdown" />
       </div>
     </section>
-    <section class="section-container" id="pilots" style="width:894px; height:714px;">
+    <section class="section-container" id="pilots" style="width:694px; height:714px;">
       <div style="height:52px; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
@@ -41,6 +41,20 @@
       <div class="section-content-container">
         <div class="pilot-list-container">
           <Pilot v-for="item in this.pilots" :key="item.slug" :pilot="item" />
+        </div>
+      </div>
+    </section>
+     <section class="section-container" id="guest" style="width:494px; height:714px;">
+      <div style="height:52px; overflow:hidden;">
+        <div class="section-header clipped-medium-backward-pilot">
+          <img src="/icons/pilot-icon.svg" />
+          <h1>Guest Roster</h1>
+        </div>
+        <div class="rhombus-back">&nbsp;</div>
+      </div>
+      <div class="section-content-container">
+        <div class="pilot-list-container">
+          <Guest v-for="item in this.guests" :key="item.slug" :guest="item" />
         </div>
       </div>
     </section>
@@ -76,6 +90,7 @@ import Header from './components/layout/Header.vue';
 import Footer from './components/layout/Footer.vue';
 import Mission from './components/Mission.vue';
 import Pilot from './components/Pilot.vue';
+import Guest from './components/Guest.vue';
 import Markdown from 'vue3-markdown-it';
 
 export default {
@@ -84,6 +99,7 @@ export default {
     Footer,
     Mission,
     Pilot,
+    Guest,
     Markdown
   },
 
@@ -144,9 +160,41 @@ export default {
           "callsign": "traitor",
           "alias": "Malintzin the Traitor",
           "code": "d1fdf62e-d81e-4e10-97c8-df3bc4860117///Umbra-Station//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
-          "corpro": "Hours",
+          "corpro": "Horus",
           "frame": "Pattern group Minotaur",
           "mech": "BABIECA THE MINOTAUR"
+        },
+      ],
+      "guests": [
+        {
+          "callsign": "Zhukov",
+          "alias": "Admiral Gaius Van Zhukov",
+          "code": "Umbra-Station//377308ad-ba23-410b-ae37-68a1fb5f8db4",
+          "corpro": "IPS-N",
+        },
+        {
+          "callsign": "Kaiba",
+          "alias": "Seto Kaiba",
+          "code": "Umbra-Station//a98c3e28-ad4a-4f89-bcd9-501464e960da",
+          "corpro": "SSC",
+        },
+        {
+          "callsign": "Federal Gunship",
+          "alias": "The Pilot Known as MultiCannonn",
+          "code": "Umbra-Station//056940c6-8d55-4190-8e85-57caa043cb1a",
+          "corpro": "Horus",
+        },
+        {
+          "callsign": "John Harrison IV",
+          "alias": "For Legal Reasons not actually John Harrison IV",
+          "code": "Umbra-Station//6f572259-6946-41bf-931a-e0543709e892",
+          "corpro": "HA",
+        },
+        {
+          "callsign": "Mr Nobody",
+          "alias": "Still Mr Nobody",
+          "code": "Umbra-Station//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
+          "corpro": "GMS",
         },
       ],
       "header": {
@@ -219,7 +267,7 @@ export default {
 
 <style lang="scss">
 #app {
-  width: 1902px;
+  width: 100%;
   height: 910px;
   overflow: hidden;
 }

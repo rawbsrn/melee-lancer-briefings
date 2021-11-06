@@ -1,0 +1,1 @@
+Former member of the Red Scorpions gang, recruited by the team on the battlefield. Has a lot of weird Horus shit, including a very strange NHP, who may or may not have brought him to planet Kolacje against his will. Was obsessed with building a Federal Gunship.
