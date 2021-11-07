@@ -106,7 +106,7 @@ export default {
   data() {
     return {
       "mission_slug": "007a",
-      "current_md": "",
+      "current_md": "007a",
       "events": "",
       "missions": [
         {
