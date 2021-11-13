@@ -17,24 +17,21 @@
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
   <script>
-    VANTA.WAVES({
+    VANTA.HALO({
       el: "body",
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
       minHeight: 200.00,
       minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0x960009,
-      shininess: 11.00,
-      waveHeight: 25.00,
-      waveSpeed: 2.00,
-      zoom: 0.65
+      baseColor: 0x81848c,
+      backgroundColor: 0xc80202,
+      amplitudeFactor: 1.50,
+      size: 2.00
     })
-  </script>
+    </script>
 </body>
 
 </html>

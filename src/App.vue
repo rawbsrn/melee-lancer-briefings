@@ -128,9 +128,9 @@ export default {
           "callsign": "chair",
           "alias": "Chadwick O'Brian",
           "code": "462370be-bd0f-41c2-b667-cc75f3a59a96///Umbra-Station//377308ad-ba23-410b-ae37-68a1fb5f8db4",
-          "corpro": "IPS-N",
-          "frame": "Blackbeard",
-          "mech": "chair mk II"
+          "corpro": "Horus",
+          "frame": "Pattern Group Balor",
+          "mech": "Nega-Gurren_MK_I"
         },
         {
           "callsign": "crosscut",
@@ -138,7 +138,7 @@ export default {
           "code": "7cd700cc-c990-48ed-892f-e5468de724c4///Umbra-Station//a98c3e28-ad4a-4f89-bcd9-501464e960da",
           "corpro": "IPS-N",
           "frame": "Caliban",
-          "mech": "actual_doomguy"
+          "mech": "Unmakyr"
         },
         {
           "callsign": "example",
@@ -152,9 +152,9 @@ export default {
           "callsign": "quickdraw",
           "alias": "Sven Arf Saith",
           "code": "98ca9616-044e-4f87-b89b-aae4eb3387ec///Umbra-Station//6f572259-6946-41bf-931a-e0543709e892",
-          "corpro": "IPS-N",
-          "frame": "Raleigh",
-          "mech": "the magnificent seven"
+          "corpro": "Horus",
+          "frame": "Pattern group Pegasus",
+          "mech": "Angel Eyes"
         },
         {
           "callsign": "traitor",
@@ -163,6 +163,14 @@ export default {
           "corpro": "Horus",
           "frame": "Pattern group Minotaur",
           "mech": "BABIECA THE MINOTAUR"
+        },
+         {
+          "callsign": "Mama",
+          "alias": "Maritsa Yarova",
+          "code": "3829e09c-eaad-455e-8596-835eef8276df///Umbra-Station//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
+          "corpro": "IPS-N",
+          "frame": "Drake",
+          "mech": "New Best Friend"
         },
       ],
       "guests": [
