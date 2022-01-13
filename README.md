@@ -4,7 +4,7 @@
 **[Live Demo](https://lancer.kuenaimaku.com/)** (No Room for a Wallflower Spoilers)
 **[live Site](https://objective-wiles-602bd0.netlify.app/)** (Melee Lancer Spoiler?)
 
-Go over mission briefings within the LANCER Universe in style by showing your players a fully animated mission briefing screen, with a Mirrorsmoke Mercenary Company theme.
+Go over mission briefings within the LANCER Universe in style by showing your players a fully animated mission briefing screen, with a GMS theme.
 
 ## Credits
 
